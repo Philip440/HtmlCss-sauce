@@ -1,0 +1,100 @@
+/* style.css */
+
+/* General styles for the body */
+body {
+    font-family: 'Arial', sans-serif; /* Apply a default sans-serif font */
+    line-height: 1.6; /* Improve text readability */
+    color: #333; /* Dark gray text for better contrast */
+    background-color: #f4f4f4; /* Light gray background */
+    margin: 20px; /* Add some overall margin around the body */
+}
+
+/* Style for the main header using its ID */
+#main-header {
+    color: #007bff; /* Blue color for the main header */
+    text-align: center; /* Center the header text */
+    padding: 20px; /* Add padding inside the header */
+    margin-bottom: 30px; /* Add margin below the header */
+    border-bottom: 2px solid #ccc; /* Add a light gray bottom border */
+}
+
+/* Style for all image elements */
+img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below inline images */
+    margin: 15px auto; /* Center images with top and bottom margin */
+    border: 5px solid #eee; /* Add a light gray border around images */
+    border-radius: 8px; /* Slightly round the image corners */
+}
+
+/* Style for list items using a class */
+.important-item {
+    font-weight: bold; /* Make important list items bold */
+    color: #28a745; /* Green color for important items */
+    margin-bottom: 10px; /* Add some space between list items */
+    padding-left: 20px; /* Add left padding for indentation */
+    border-left: 5px solid #28a745; /* Add a green left border */
+}
+
+/* Style for table elements */
+table {
+    width: 80%; /* Set a reasonable width for the table */
+    margin: 20px auto; /* Center the table */
+    border-collapse: collapse; /* Collapse table borders */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Light gray borders for table cells */
+    padding: 10px; /* Add padding inside table cells */
+    text-align: left; /* Align text to the left */
+}
+
+th {
+    background-color: #f2f2f2; /* Light gray background for table header */
+    font-weight: bold; /* Bold text for table header */
+}
+
+/* Style for form elements */
+form {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
